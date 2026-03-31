@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .markdown-body {
+    @apply text-slate-700 leading-relaxed;
+  }
+  .markdown-body p {
+    @apply mb-4;
+  }
+  .markdown-body ul {
+    @apply list-disc pl-6 mb-4 space-y-1;
+  }
+  .markdown-body li {
+    @apply mb-1;
+  }
+  .markdown-body strong {
+    @apply font-semibold text-slate-900;
+  }
+}
